@@ -1,0 +1,43 @@
+/* #212121 */
+
+.about-me-section{
+    background-color: #212121;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+
+}
+
+.about-me-heading{
+    color: #00CE79;
+    font-size: 48px;
+    padding-left: 30px;
+}
+
+.description-about-me{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    /* border: 1px solid orange; */
+    width: 900px;
+}
+/* .about-me-box{
+    
+    border: 1px solid orange;
+} */
+img{
+    height: 500px;
+    border: none;
+    border-radius: 35px;
+}
+.about-me-paragraphs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

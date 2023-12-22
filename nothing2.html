@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /* padding: 50px; */
+            background-color: #212121;
+        }
+        .input-area{
+            /* border: 1px solid #00CE79; */
+            border: none;
+            width: 432px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            border-radius: 8px;
+        }
+        input{
+            /* border: 1px solid #00CE79; */
+            border: none;
+
+            border-radius: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            width: 400px;
+            margin-bottom: 20px;
+            height: 24px;
+            font-size: 18px;
+            background-color: #181818;
+            color: gray;
+        }
+        textarea{
+            width: 400px;
+            border: none;
+
+            /* border: 1px solid #00CE79; */
+            border-radius: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            background-color: #181818;
+        }
+        textarea::placeholder, .input::placeholder{
+           color: gray;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            background-color: #00CE79;
+            border: 1px solid #00CE79;
+            border-radius: 4px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+            width: 432px;
+            transition: background-color 0.15s, color 0.15s;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: #212121;
+            color: #00CE79;
+        }
+
+
+
+
+
+
+        .info-heading{
+            color: #00CE79;
+            font-size: 48px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 700;
+            color: #515151;
+        }
+
+        .input-area, .info-area{
+            margin: 70px;
+        }
+
+        .main-div{
+            display: flex;
+            
+        }
+        .flex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="flex">
+        <div class="main-div">
+            <div class="input-area">
+                <input class="input" type="text" placeholder="Your Name"> <br>
+                <input class="input" type="text" placeholder="Your Email"> <br>
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea> <br>
+                <button>Send</button>
+            </div>
+            <div class="info-area">
+                <p class="info-heading">Contact Me</p>
+                <p class="info-address">Dhaka, Bangladesh</p>
+                <p class="info-git">/tasinhaque</p>
+                <p class="info-discourd">thtashin#0091</p>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
